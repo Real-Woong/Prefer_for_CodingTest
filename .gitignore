@@ -6,3 +6,4 @@ Icon?
 \n.venv/\n
 _템플릿.py
 
+__pycache__/
