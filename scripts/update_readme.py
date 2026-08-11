@@ -143,11 +143,15 @@ def week_start(day: date) -> date:
 
 
 def face(count: int) -> str:
-    if count > GOAL:
-        return "😄 환하게 웃음"
+    if count >= 6:
+        return "🤩 목표 초과"
     if count == GOAL:
-        return "🙂 웃음"
-    return "😭 울음"
+        return "😄 목표 달성"
+    if count >= 3:
+        return "🙂 목표가 보여요"
+    if count >= 1:
+        return "😢 조금 더 힘내기"
+    return "😭 아직 시작 전"
 
 
 def progress(count: int) -> str:
@@ -201,7 +205,7 @@ def generate() -> str:
         "",
         f"누적 **{len(solved)}문제** · {level_summary} · 커밋한 날 **{active_days}일**",
         "",
-        "> 표정 규칙: 5문제 미만 `😭` · 정확히 5문제 `🙂` · 5문제 초과 `😄`",
+        "> 표정 규칙: 0문제 `😭` · 1~2문제 `😢` · 3~4문제 `🙂` · 5문제 `😄` · 6문제 이상 `🤩`",
         "",
         "## 주간 기록",
         "",
