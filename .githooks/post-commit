@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Keep the study dashboard in the same commit as the solved problem.  Amending
+# with --no-verify prevents this hook from invoking itself again.
+repository_root=$(git rev-parse --show-toplevel) || exit 0
+cd "$repository_root" || exit 0
+
+python3 scripts/update_readme.py || exit 1
+
+if git diff --quiet -- README.md; then
+    exit 0
+fi
+
+git add README.md
+git commit --amend --no-edit --no-verify

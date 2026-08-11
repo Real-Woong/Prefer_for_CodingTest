@@ -24,7 +24,7 @@
 
 | 날짜 | 푼 문제 | 레벨 | 커밋 |
 |---|---|:---:|---|
-| 2026.08.11 (화) | [공원](LV1/%EA%B3%B5%EC%9B%90.py) | LV1 | [23b5e02](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/23b5e02a8ede2bf47f4996344c36e2df3c9d666e) solve problem LV1/공원 and add coding test study log<br>[a2864b1](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/a2864b12d516a1e950254a8c7cb606fc45a91af7) fix: track Korean problem paths in README |
+| 2026.08.11 (화) | [공원](LV1/%EA%B3%B5%EC%9B%90.py) | LV1 | [23b5e02](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/23b5e02a8ede2bf47f4996344c36e2df3c9d666e) solve problem LV1/공원 and add coding test study log<br>[a2864b1](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/a2864b12d516a1e950254a8c7cb606fc45a91af7) fix: track Korean problem paths in README<br>[ec67709](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/ec6770965a6e1f2ab8e45df1d5c2feb4ef900995) feat: add detailed weekly progress faces<br>`현재 커밋` fix: update study log within problem commits |
 | 2026.08.10 (월) | [지폐 접기](LV1/%EC%A7%80%ED%8F%90_%EC%A0%91%EA%B8%B0.py) | LV1 | [66b1fe6](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/66b1fe65040055b44e7273f0377ae5c08b76627b) solve problem 지폐_접기 |
 | 2026.08.09 (일) | — | — | — |
 | 2026.08.08 (토) | — | — | — |
@@ -41,6 +41,6 @@
 
 - `2026.08.11`부터 `LV숫자/문제이름.py`를 커밋하고 push하면 커밋 메시지와 관계없이 자동으로 기록합니다.
 - 같은 문제는 처음 완료한 한 번만 집계하며 `test.py`, `_템플릿.py`는 제외합니다.
-- README는 `main` 브랜치에 push할 때 자동 갱신됩니다.
+- README는 문제를 커밋할 때 자동 갱신되어 같은 커밋에 포함됩니다.
 
 <!-- 이 파일의 학습 기록은 scripts/update_readme.py가 자동 생성합니다. -->

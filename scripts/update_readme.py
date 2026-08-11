@@ -158,7 +158,11 @@ def progress(count: int) -> str:
     return "🟩" * min(count, GOAL) + "⬜" * max(GOAL - count, 0)
 
 
-def commit_link(repo: str, commit: Commit) -> str:
+def commit_link(repo: str, commit: Commit, head_sha: str) -> str:
+    # The post-commit hook amends HEAD after generating the README.  Embedding
+    # HEAD's SHA would change that SHA and leave a broken self-reference.
+    if commit.sha == head_sha:
+        return "`현재 커밋`"
     label = commit.sha[:7]
     return f"[{label}]({repo}/commit/{commit.sha})" if repo else f"`{label}`"
 
@@ -172,6 +176,7 @@ def generate() -> str:
     solved = solved_problems(commits)
     today = datetime.now(SEOUL).date()
     repo = repository_url()
+    head_sha = git("rev-parse", "HEAD")
 
     solved_by_week: dict[date, list[SolvedProblem]] = defaultdict(list)
     solved_by_day: dict[date, list[SolvedProblem]] = defaultdict(list)
@@ -240,7 +245,8 @@ def generate() -> str:
         solved_text = "<br>".join(problem_link(problem) for problem in day_solved) or "—"
         levels_text = "<br>".join(problem.level for problem in day_solved) or "—"
         commits_text = "<br>".join(
-            f"{commit_link(repo, commit)} {commit.subject}" for commit in day_commits
+            f"{commit_link(repo, commit, head_sha)} {commit.subject}"
+            for commit in day_commits
         ) or "—"
         lines.append(
             f"| {cursor:%Y.%m.%d} ({WEEKDAYS[cursor.weekday()]}) | {solved_text} | {levels_text} | {commits_text} |"
@@ -254,7 +260,7 @@ def generate() -> str:
             "",
             f"- `{AUTO_TRACK_FROM:%Y.%m.%d}`부터 `LV숫자/문제이름.py`를 커밋하고 push하면 커밋 메시지와 관계없이 자동으로 기록합니다.",
             "- 같은 문제는 처음 완료한 한 번만 집계하며 `test.py`, `_템플릿.py`는 제외합니다.",
-            "- README는 `main` 브랜치에 push할 때 자동 갱신됩니다.",
+            "- README는 문제를 커밋할 때 자동 갱신되어 같은 커밋에 포함됩니다.",
             "",
             "<!-- 이 파일의 학습 기록은 scripts/update_readme.py가 자동 생성합니다. -->",
             "",
