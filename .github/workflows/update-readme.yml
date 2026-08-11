@@ -1,0 +1,38 @@
+name: Update coding challenge log
+
+on:
+  push:
+    branches: [main]
+  # 매주 일요일 23:59 (Asia/Seoul)에 한 주의 결과를 마감합니다.
+  schedule:
+    - cron: "59 14 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate README
+        env:
+          TZ: Asia/Seoul
+        run: python3 scripts/update_readme.py
+
+      - name: Commit changed log
+        run: |
+          if git diff --quiet README.md; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: update coding challenge log [skip ci]"
+          git push
