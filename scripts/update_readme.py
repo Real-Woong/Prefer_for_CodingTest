@@ -61,6 +61,8 @@ def read_commits() -> list[Commit]:
     # Record and field separators are control characters unlikely to occur in
     # ordinary commit subjects or paths.
     raw = git(
+        "-c",
+        "core.quotepath=false",
         "log",
         "--reverse",
         "--date=iso-strict",
