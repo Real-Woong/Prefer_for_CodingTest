@@ -24,7 +24,7 @@
 
 | 날짜 | 푼 문제 | 레벨 | 커밋 |
 |---|---|:---:|---|
-| 2026.08.11 (화) | [공원](LV1/%EA%B3%B5%EC%9B%90.py) | LV1 | [23b5e02](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/23b5e02a8ede2bf47f4996344c36e2df3c9d666e) solve problem LV1/공원 and add coding test study log |
+| 2026.08.11 (화) | [공원](LV1/%EA%B3%B5%EC%9B%90.py) | LV1 | [23b5e02](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/23b5e02a8ede2bf47f4996344c36e2df3c9d666e) solve problem LV1/공원 and add coding test study log<br>[a2864b1](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/a2864b12d516a1e950254a8c7cb606fc45a91af7) fix: track Korean problem paths in README |
 | 2026.08.10 (월) | [지폐 접기](LV1/%EC%A7%80%ED%8F%90_%EC%A0%91%EA%B8%B0.py) | LV1 | [66b1fe6](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/66b1fe65040055b44e7273f0377ae5c08b76627b) solve problem 지폐_접기 |
 | 2026.08.09 (일) | — | — | — |
 | 2026.08.08 (토) | — | — | — |
