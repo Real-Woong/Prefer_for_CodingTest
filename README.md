@@ -8,7 +8,7 @@
 
 `2026.08.10 ~ 2026.08.16`
 
-누적 **8문제** · **LV1** 8문제 · 커밋한 날 **8일**
+누적 **8문제** · **LV1** 8문제 · 커밋한 날 **9일**
 
 > 표정 규칙: 0문제 `😭` · 1에서 2 문제 `😢` · 3에서 4문제 `🙂` · 5문제 `😄` · 6문제 이상 `🤩`
 
@@ -24,7 +24,8 @@
 
 | 날짜 | 푼 문제 | 레벨 | 커밋 |
 |---|---|:---:|---|
-| 2026.08.12 (수) | [특정 형질을 가지는 대장균 찾기](LV1/%ED%8A%B9%EC%A0%95_%ED%98%95%EC%A7%88%EC%9D%84_%EA%B0%80%EC%A7%80%EB%8A%94_%EB%8C%80%EC%9E%A5%EA%B7%A0_%EC%B0%BE%EA%B8%B0.py) | LV1 | `현재 커밋` solve the problem 특정_형질을_가지는_대장균_찾기 (sql problem) |
+| 2026.08.13 (목) | — | — | `현재 커밋` solve problem |
+| 2026.08.12 (수) | [특정 형질을 가지는 대장균 찾기](LV1/%ED%8A%B9%EC%A0%95_%ED%98%95%EC%A7%88%EC%9D%84_%EA%B0%80%EC%A7%80%EB%8A%94_%EB%8C%80%EC%9E%A5%EA%B7%A0_%EC%B0%BE%EA%B8%B0.py) | LV1 | [2ea8cd5](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/2ea8cd53cf2b5eb1ef79a87f02a4a546ab1c342c) solve the problem 특정_형질을_가지는_대장균_찾기 (sql problem) |
 | 2026.08.11 (화) | [공원](LV1/%EA%B3%B5%EC%9B%90.py) | LV1 | [23b5e02](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/23b5e02a8ede2bf47f4996344c36e2df3c9d666e) solve problem LV1/공원 and add coding test study log<br>[a2864b1](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/a2864b12d516a1e950254a8c7cb606fc45a91af7) fix: track Korean problem paths in README<br>[ec67709](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/ec6770965a6e1f2ab8e45df1d5c2feb4ef900995) feat: add detailed weekly progress faces<br>[50035f0](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/50035f042a844c6ca5700dbacd412144f6cee7d5) fix: update study log within problem commits |
 | 2026.08.10 (월) | [지폐 접기](LV1/%EC%A7%80%ED%8F%90_%EC%A0%91%EA%B8%B0.py) | LV1 | [66b1fe6](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/66b1fe65040055b44e7273f0377ae5c08b76627b) solve problem 지폐_접기 |
 | 2026.08.09 (일) | — | — | — |
