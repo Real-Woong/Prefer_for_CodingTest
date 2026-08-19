@@ -4,11 +4,11 @@
 
 ## 이번 주
 
-### 🟩🟩🟩🟩⬜ 4 / 5문제 · 🙂 목표가 보여요
+### ⬜⬜⬜⬜⬜ 0 / 5문제 · 😭 아직 시작 전
 
-`2026.08.10 ~ 2026.08.16`
+`2026.08.17 ~ 2026.08.23`
 
-누적 **9문제** · **LV1** 9문제 · 커밋한 날 **9일**
+누적 **9문제** · **LV1** 9문제 · 커밋한 날 **10일**
 
 > 표정 규칙: 0문제 `😭` · 1~2문제 `😢` · 3~4문제 `🙂` · 5문제 `😄` · 6문제 이상 `🤩`
 
@@ -16,7 +16,8 @@
 
 | 주차 | 진행도 | 푼 문제 | 표정 |
 |---|:---:|---:|:---:|
-| 2026.08.10 ~ 08.16 **(이번 주)** | 🟩🟩🟩🟩⬜ | **4 / 5** | 🙂 |
+| 2026.08.17 ~ 08.23 **(이번 주)** | ⬜⬜⬜⬜⬜ | **0 / 5** | 😭 |
+| 2026.08.10 ~ 08.16 | 🟩🟩🟩🟩⬜ | **4 / 5** | 🙂 |
 | 2026.08.03 ~ 08.09 | 🟩🟩🟩🟩⬜ | **4 / 5** | 🙂 |
 | 2026.07.27 ~ 08.02 | 🟩⬜⬜⬜⬜ | **1 / 5** | 😢 |
 
@@ -24,7 +25,13 @@
 
 | 날짜 | 푼 문제 | 레벨 | 커밋 |
 |---|---|:---:|---|
-| 2026.08.13 (목) | [가장 큰 물고기 10마리 구하기](LV1/%EA%B0%80%EC%9E%A5_%ED%81%B0_%EB%AC%BC%EA%B3%A0%EA%B8%B0_10%EB%A7%88%EB%A6%AC_%EA%B5%AC%ED%95%98%EA%B8%B0.py) | LV1 | [9c7e792](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/9c7e7929cddfda24d4708fce32cf13bc787c160a) solve problem<br>[8c32cff](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/8c32cff5006c18c9d6fa291d936f7064a5dc95a0) fix README<br>`현재 커밋` solve the problem 가장_큰_물고기_10마리_구하기 |
+| 2026.08.19 (수) | — | — | `현재 커밋` chore: ignore _STATUS.md (로컬 프로젝트 상태 관리 파일) |
+| 2026.08.18 (화) | — | — | — |
+| 2026.08.17 (월) | — | — | — |
+| 2026.08.16 (일) | — | — | — |
+| 2026.08.15 (토) | — | — | — |
+| 2026.08.14 (금) | — | — | — |
+| 2026.08.13 (목) | [가장 큰 물고기 10마리 구하기](LV1/%EA%B0%80%EC%9E%A5_%ED%81%B0_%EB%AC%BC%EA%B3%A0%EA%B8%B0_10%EB%A7%88%EB%A6%AC_%EA%B5%AC%ED%95%98%EA%B8%B0.py) | LV1 | [9c7e792](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/9c7e7929cddfda24d4708fce32cf13bc787c160a) solve problem<br>[8c32cff](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/8c32cff5006c18c9d6fa291d936f7064a5dc95a0) fix README<br>[75438b7](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/75438b78e19d9d8a85aa65f95b4b491587e2ca0b) solve the problem 가장_큰_물고기_10마리_구하기 |
 | 2026.08.12 (수) | [특정 형질을 가지는 대장균 찾기](LV1/%ED%8A%B9%EC%A0%95_%ED%98%95%EC%A7%88%EC%9D%84_%EA%B0%80%EC%A7%80%EB%8A%94_%EB%8C%80%EC%9E%A5%EA%B7%A0_%EC%B0%BE%EA%B8%B0.py) | LV1 | [2ea8cd5](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/2ea8cd53cf2b5eb1ef79a87f02a4a546ab1c342c) solve the problem 특정_형질을_가지는_대장균_찾기 (sql problem)<br>[7a8484e](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/7a8484ee91e6a3837e3e6bd9b430a1455659335a) Update README.md |
 | 2026.08.11 (화) | [공원](LV1/%EA%B3%B5%EC%9B%90.py) | LV1 | [23b5e02](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/23b5e02a8ede2bf47f4996344c36e2df3c9d666e) solve problem LV1/공원 and add coding test study log<br>[a2864b1](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/a2864b12d516a1e950254a8c7cb606fc45a91af7) fix: track Korean problem paths in README<br>[ec67709](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/ec6770965a6e1f2ab8e45df1d5c2feb4ef900995) feat: add detailed weekly progress faces<br>[50035f0](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/50035f042a844c6ca5700dbacd412144f6cee7d5) fix: update study log within problem commits |
 | 2026.08.10 (월) | [지폐 접기](LV1/%EC%A7%80%ED%8F%90_%EC%A0%91%EA%B8%B0.py) | LV1 | [66b1fe6](https://github.com/Real-Woong/Prefer_for_CodingTest/commit/66b1fe65040055b44e7273f0377ae5c08b76627b) solve problem 지폐_접기 |
